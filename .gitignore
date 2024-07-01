@@ -1,0 +1,7 @@
+ckpt/*
+wandb/*
+dataset/*
+pretrained/*
+.ipynb_checkpoints/
+__pycache__/
+wsad.slurm
