@@ -1,6 +1,6 @@
 # Moving toward 3D Vision Transformers
 <div align="center">
-  <img src="deepvision.png" alt="Logo" width="400"/>
+  <img src="deepvision_v2.png" alt="Logo" width="400"/>
 </div>
 
 
