@@ -1,6 +1,6 @@
 # Moving toward 3D Vision Transformers
 <div align="center">
-  <img src="deepvision.png" alt="Logo" width="200"/>
+  <img src="deepvision.png" alt="Logo" width="400"/>
 </div>
 
 
@@ -26,7 +26,7 @@ pip3 install -r requirements.txt
 4. Download LIDC-IDRI dataset and preprocess it: </br>
 Dataset is available there: [LIDC-IDRI](https://www.cancerimagingarchive.net/collection/lidc-idri/). To download it, follow publisher instructions. </br>
 Data preprocessing should be done as in a paper: [Integration of Radiomics and Tumor Biomarkers in Interpretable Machine Learning Models](https://doi.org/10.3390/cancers15092459). </br>
-I have preprocessed data in batches with `dataset_creation.py` script.
+I preprocessed data in batches with `dataset_creation.py` script.
 
 5. Create empty directory and download into it pretrained DINO backbone: </br>
 It is required to instantiate 3DViT.
@@ -39,7 +39,7 @@ cd ..
 
 7. Download already preprocessed data: [OPTIONAL] </br>
 If you want to faster make your setup, you can directly download `dataset.tar.gz` file containing preprocessed dataset. </br>
-Download: [Google Disc](https://drive.google.com/file/d/1zWsmqwdAMKKcz3hvbc4CFXh6MRIM7Yw9/view?usp=sharing)
+Download: [Google Disc](https://drive.google.com/file/d/1zWsmqwdAMKKcz3hvbc4CFXh6MRIM7Yw9/view?usp=sharing) </br>
 It contains everything you need to perform training/evaluation -> nodule crops, fitted normalization factors, dataset splitting pattern. </br>
 You may find useful command for downloading things from google disc:
 ```bash
@@ -48,9 +48,9 @@ gdown https://drive.google.com/uc\?id\=1zWsmqwdAMKKcz3hvbc4CFXh6MRIM7Yw9
    
 9. Download already fine-tuned checkpoints: [OPTIONAL] </br>
 All checkpoints (~102GB): Available on a request. </br>
-Only versions v0: [Google Disc]() </br>
+Only versions v0: [TO DO]() </br>
 ```bash
-gdown https://drive.google.com/uc\?id\=1zWsmqwdAMKKcz3hvbc4CFXh6MRIM7Yw9    
+gdown TO DO  
 ```
 
 ## Author
@@ -59,5 +59,5 @@ Jakub Binda
 ## Licence
 MIT
 
-Logo is AI generated
+Logo is AI generated </br>
 [https://logo.com/](https://logo.com/)
