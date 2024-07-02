@@ -48,7 +48,7 @@ gdown https://drive.google.com/uc\?id\=1zWsmqwdAMKKcz3hvbc4CFXh6MRIM7Yw9
    
 9. Download already fine-tuned checkpoints: [OPTIONAL] </br>
 All checkpoints (~102GB): Available on a request. </br>
-Only versions v0: [TO DO]() </br>
+Only versions v0: [Will be uploaded]() </br>
 ```bash
 gdown TO DO  
 ```
